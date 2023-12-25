@@ -26,7 +26,7 @@ with col2:
 # functional button
 left_column, right_column = st.columns(2)
 with left_column:
-    event = st.selectbox("Event", ("techcombank_2023", ""))
+    event = st.selectbox("Event", ("tet_2024", ""))
     if event:
         config_event = read_event_config(event)
 
